@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    
+}
+.logo{
+    font-size: 25px;
+    font-weight: 550;
+    text-decoration: none;
+    color: black;
+}
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    color: white;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: orange;
+    /* transition: 0.2s; */
+}
+.home{
+    height: 100vh;
+    background: linear-gradient(-90deg, #031540 65%,white 35%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.home-cont{
+    max-width: 600px;
+    color: white;
+    text-align: right;
+}
+.home-cont h1{
+    font-size: 42px;
+    line-height: 1.2;
+}
+.home-cont h3{
+    font-size: 32px;
+    color: #00abf0;
+    -webkit-text-stroke: .5px #fff;
+}
+.home-cont p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.home-sci{
+    margin: 25px 0 40px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 26px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.home-sci a:hover{
+    background-color: #00abf0;
+    color: white;
+}
+.btn{
+    padding: 8px 25px;
+    background: #00abf0;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #00abf0;
+}
+.btn:hover{
+    box-shadow: none;
+}
+
+.h-imge{
+    height: 400px;
+    width: 400px;
+    display: flex ;
+    justify-content: center;
+    background-color: #031540;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    outline: 15px solid #031540;
+}
+.h-imge{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    height: 400px;
+    
+}
